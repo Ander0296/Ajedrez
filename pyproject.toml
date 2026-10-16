@@ -1,0 +1,25 @@
+[project]
+name = "ajedrez"
+version = "0.1.0"
+description = "Herramientas del entrenador: partidas de chess.com, estadísticas de proceso y análisis con Stockfish"
+requires-python = ">=3.12"
+dependencies = ["chess>=1.11"]
+
+[project.scripts]
+ajedrez = "ajedrez.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14"]
+build-backend = "uv_build"
+
+# El paquete vive en herramientas/ajedrez/ y no en src/: este repo es de
+# estudio y el código es secundario, así que no se lleva el nombre principal.
+[tool.uv.build-backend]
+module-root = "herramientas"
+module-name = "ajedrez"
+
+[tool.pytest.ini_options]
+testpaths = ["herramientas/tests"]

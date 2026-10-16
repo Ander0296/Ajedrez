@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run ajedrez:*)",
+      "Bash(uv run pytest:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/git-al-abrir.sh",
+            "timeout": 30,
+            "statusMessage": "Trayendo lo último del repo..."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/proteger-mi-trabajo.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

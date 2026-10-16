@@ -1,0 +1,11 @@
+#separator:tab
+#html:false
+#deck:Ajedrez
+#tags:ajedrez
+¿Cuáles son los cuatro pasos del chequeo antes de mover en ajedrez?	1) Qué cambió con la última jugada del rival: qué ataca la pieza que movió, qué destapó, si da jaque, amenaza mate o dejó algo suelto. 2) Qué piezas mías están atacadas o sin defensa. 3) Mis jaques, capturas y amenazas, y 2-3 jugadas candidatas. 4) Antes de soltar la pieza: después de mi jugada, qué jaques, capturas y amenazas tendrá el rival.
+¿Qué es el "ajedrez de esperanza" (hope chess)?	Hacer una jugada sin comprobar si se puede responder a todos los jaques, capturas y amenazas que el rival tendrá después, esperando que no los vea. Es la causa principal de derrotas por debajo de ~1200 (concepto de Dan Heisman).
+¿Cuánto tiempo por jugada hay de media en una partida de 10 minutos sin incremento?	Unos 15-17 segundos (10 minutos para ~35-40 jugadas). Se ahorra en las jugadas de apertura conocidas y se gasta en las posiciones críticas, cuando hay capturas, jaques o amenazas en el aire.
+¿Cuándo tiene sentido rendirse por debajo de ~1200 de rating?	Casi nunca antes de la jugada 30: solo con una dama de menos sin compensación o un mate imposible de parar. A ese nivel los rivales devuelven material muy seguido, y defender posiciones peores también se entrena.
+¿Por qué la casilla f7 (f2 para las blancas) es el punto débil al comienzo de la partida?	Porque al principio solo la defiende el rey. Un alfil en c4 junto con un caballo en g5 o una dama en h5 o f3 la atacan dos veces, y la captura en f7 suele venir con jaque, horquilla o mate.
+¿Cuáles son las cinco formas de responder a un ataque contra una pieza?	Moverla a una casilla segura, defenderla con otra pieza, interponer una pieza en la línea del ataque, capturar a la pieza atacante, o contraatacar con una amenaza igual o mayor.
+¿Qué es una pieza suelta y por qué importa en táctica?	Una pieza sin ningún defensor. Casi todas las tácticas (ataque doble, horquilla, descubierta) cobran piezas sueltas: por eso conviene tener las propias defendidas y buscar siempre las del rival.

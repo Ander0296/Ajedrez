@@ -1,0 +1,21 @@
+# Material de estudio: pantallazos del libro (Kindle). Copyright — NUNCA subir,
+# el repo puede ser público. Se ignora la carpeta completa.
+material/
+
+# Caché de chess.com y PGN generados por `ajedrez errores`: se regeneran.
+datos/
+
+# Entorno de Python (lo crea `uv sync`) y temporales
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Archivos locales de herramientas
+.codegraph/
+.claude/settings.local.json
+.atl/
+
+# Basura del sistema
+.DS_Store
+Thumbs.db

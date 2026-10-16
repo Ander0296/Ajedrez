@@ -1,0 +1,27 @@
+# Configuración de las herramientas del entrenador (`uv run ajedrez ...`).
+# La mantiene Claude: cuando cambia la fase de RUTA.md, se actualizan las metas.
+
+[chesscom]
+usuario = "buti-g"
+# chess.com pide que las herramientas se identifiquen en el User-Agent.
+# Sin datos personales: alcanza con el nombre de la herramienta.
+agente = "ajedrez-entrenamiento-personal/0.1 (+uso personal, pedidos en serie)"
+
+[motor]
+# Ruta a Stockfish. Vacío = buscarlo en el PATH (yay -S stockfish lo deja ahí).
+ruta = ""
+profundidad_partida = 14    # una partida completa: ~10 s
+profundidad_errores = 12    # varias partidas seguidas
+profundidad_posicion = 20   # verificar un ejercicio o una respuesta
+hilos = 4
+hash_mb = 256
+
+# Metas de PROCESO de la fase actual (RUTA.md). `ajedrez resumen` compara
+# contra estas cifras. Son de la FASE 1 — "Dejar de regalar".
+[metas]
+segundos_por_jugada = 15        # mediana, desde la jugada 6, mínimo
+jugadas_en_menos_de_3s = 10     # %, máximo
+reloj_sin_usar_al_perder = 40   # %, máximo (mediana)
+derrotas_cortas = 25            # % de derrotas en 20 jugadas o menos, máximo
+rendiciones_tempranas = 0       # rendiciones antes de la jugada 20, máximo
+partidas_por_dia = 2            # partidas valoradas por día, máximo

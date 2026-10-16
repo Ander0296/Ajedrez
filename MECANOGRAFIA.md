@@ -1,0 +1,10 @@
+# MECANOGRAFÍA — frases de práctica (ttyper)
+
+Una entrada por sesión de Claude con lección nueva ("sNN — tema:"). Acá la
+frase va natural; en los archivos de ttyper
+(`~/.config/ttyper/texts/ajedrez-sNN.txt`, o `-sNNa`/`-sNNb` si son dos) va
+una palabra por línea. Las frases no se editan: si algo cambió, frase nueva.
+
+s01 — el diagnóstico:
+Antes de mover: ¿qué amenaza el rival?, ¿qué dejo colgado?, ¿tengo algo mejor?
+Si el rival deja una pieza suelta, compruebo que sea gratis y la cobro.

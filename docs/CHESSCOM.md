@@ -33,18 +33,43 @@ problemas, no con partidas.
 
 ## 3. Configuración inicial (10 minutos, una vez)
 
-- [ ] **Desactivar los premovimientos** (*premoves*) en la configuración de
-      juego en vivo. Un premove es mover sin mirar la jugada del rival:
-      exactamente lo que el chequeo viene a corregir.
-- [ ] **Coordenadas en el tablero**: activadas (para leer jugadas y el libro).
-- [ ] **Problemas**: dificultad estándar (*Standard*) por ahora; difícil
-      (*Hard*) en la Fase 2. La dificultad se ajusta en la configuración de
-      problemas y vale también en la app.
-- [ ] **Tablero de análisis**: ubicá el interruptor del motor (*engine*):
-      apagado para tu autoanálisis, prendido después.
-- [ ] **Control de tiempo**: dejá **10|5** como control de rápidas por
-      defecto al buscar partida (o 15|10 los días con más tiempo).
-- [ ] **Diarias**: 1-2 partidas a 3 días por jugada.
+Rutas verificadas en el Centro de ayuda de chess.com (oct-2026). Los nombres
+en español pueden variar un poco: entre paréntesis va el nombre en inglés.
+
+**A. Ajustes de partida** — en chess.com/play/online, el engranaje que está
+arriba a la derecha del tablero:
+
+| Pestaña | Ajuste | Valor | Por qué |
+| --- | --- | --- | --- |
+| Tablero (*Board*) | Coordenadas (*Coordinates*) | fuera del tablero (*Outside*) | leer jugadas, el libro y los ejercicios |
+| Tablero | Resaltar jugada (*Highlight Move*) | activado | el paso 1 del chequeo: ver qué movió el rival |
+| Tablero | Blancas siempre abajo (*White Always on Bottom*) | desactivado | ver el tablero desde tu lado, como en los ejercicios |
+| Tablero | Mostrar jugadas legales (*Show Legal Moves*) | desactivado (opcional) | que las casillas las veas vos |
+| Jugar → General | Confirmar abandono/tablas (*Confirm Resign/Draw*) | activado | un clic de freno antes de rendirte (85 rendiciones antes de la jugada 20) |
+| Jugar → General | Modo concentración siempre (*Always Use Focus Mode*) | activado | sin chat ni distracciones |
+| Jugar → General | Análisis automático (*Automatic Analysis*) | desactivado | si no, ves el veredicto del motor antes de tu autoanálisis |
+| Jugar → En vivo (*Live*) | Ocultar ratings durante la partida (*Hide ratings during the game*) | activado | jugás la posición, no el número del rival |
+| Jugar → En vivo | Premovimientos (*Enable Premoves*) | desactivado | un premove es mover sin mirar la jugada del rival |
+| Jugar → En vivo | Aviso de poco tiempo (*Low-Time Warning*) | activado | |
+| Jugar → En vivo | Partidas múltiples (*Multiple Games*) | desactivado | una partida, toda la atención |
+
+**B. Problemas** — engranaje abajo a la izquierda de cualquier página → Todos
+los ajustes (*All Settings*) → Juego (*Gameplay*) → sección Problemas
+(*Puzzles*): dificultad **Estándar** (*Standard*) por ahora; **Difícil**
+(*Hard*) en la Fase 2. Vale también para la app.
+
+**C. Tablero de análisis** (para el autoanálisis) — en chess.com/analysis,
+los tres puntos junto al interruptor "Análisis": apagá la barra de
+evaluación, las líneas del motor, las flechas de sugerencia y los comentarios
+de jugada (*move feedback*). Terminado el autoanálisis, se vuelven a prender
+en el mismo menú. Desde el Game Review, el botón "Ir al autoanálisis" (*Go to
+Self Analysis*) lleva a este tablero.
+
+**D. Jugar** — en Jugar, el selector de tiempo → más controles (*More Time
+Controls*) → **10 | 5** (chess.com recuerda el último que elegiste). Diarias:
+pestaña Diaria (*Daily*) → **3 días** por jugada → 1-2 partidas abiertas.
+
+**E. Lo que no se configura**: la Liga y la racha. Se ignoran.
 
 ## 4. JUGAR con propósito
 

@@ -43,7 +43,7 @@ nada nuevo.
 - [x] Herramientas instaladas y probadas: uv, python-chess, Stockfish 19,
       47 tests OK — 2026-10-15
 - [x] Repo en GitHub: github.com/Ander0296/Ajedrez (público) — 2026-10-15
-- [ ] chess.com configurado (docs/CHESSCOM.md, sección 2)
+- [x] chess.com configurado (docs/CHESSCOM.md, sección 3) — 2026-10-15
 - [ ] Reglas de juego adoptadas (RUTINA.md): 10|5 o 15|10, máx. 2 por día,
       no rendirme antes de la 30
 - [ ] Prácticas #01, #02 y #03 entregadas

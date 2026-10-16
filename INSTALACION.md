@@ -56,7 +56,10 @@ Igual que siempre: `ssh -T git@github.com` tiene que responder
 # PARTE 3 — SUBIR ESTE REPO A GITHUB (una sola vez)
 # ============================================================
 
-El repo ya existe en mi PC (con su primer commit). Falta crearlo en GitHub.
+✅ Hecho el 2026-10-15: github.com/Ander0296/Ajedrez (público), enlazado
+por SSH. Queda como referencia por si alguna vez hay que repetirlo.
+
+El repo ya existía en mi PC (con su primer commit); faltaba crearlo en GitHub.
 **Lo decido yo**: el profe no crea repos por su cuenta.
 
 ¿Privado o público? Público funciona igual (el libro nunca sube: `material/`

@@ -11,10 +11,9 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 - Tema de la semana: el chequeo antes de mover + f7 (hasta la 1ª /semana)
 - Libro: sin empezar. Caps. 1-11 LECTURA; 1ª TANDA = caps. 12-15 (docs/ILLESCAS.md)
 - Última tanda: ninguna todavía (las tandas se numeran "Sesión #NN")
-- Última partida analizada: ninguna; las partidas hasta el 2026-10-15 20:12
-  (vs Mandauw) las cubre el diagnóstico
-- PRÓXIMA SESIÓN: `/rename ajedrez-s03`   ← sale SIEMPRE de acá, no se calcula
-- Prácticas pendientes: #01 f7, #03 reloj · #02 mates ✅ (r1: 2026-10-19)
+- Última partida analizada: 2026-10-16 00:46 vs Momoney00 (10|5, P por tiempo)
+- PRÓXIMA SESIÓN: `/rename ajedrez-s04`   ← sale SIEMPRE de acá, no se calcula
+- Prácticas pendientes: #01 f7, #04 Momoney (desde 17-oct) · #03 reloj [~] 1/3 · #02 ✅ (r1: 2026-10-19)
 - Última /semana: nunca (la primera: domingo 2026-10-18)
 - Último triage (`/pendientes`): nunca
 - Último examen (`/examen`): nunca
@@ -38,6 +37,7 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 | Custom Puzzles | problemas personalizados | Problemas elegidos por tema (sin rating). |
 | stalemate | ahogado | Sin jugadas legales y SIN jaque: son tablas. |
 | opposition | oposición | Reyes frente a frente con una sola casilla entre ellos: el que mueve cede terreno. |
+| increment (10 \| 5) | incremento | Segundos que el reloj te SUMA cada vez que movés: 10\|5 = 10 minutos + 5 s por jugada. |
 
 ============================================================
 (ACÁ VAN LAS SESIONES — Claude agrega la SESIÓN #01 con la primera tanda del

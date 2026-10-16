@@ -63,7 +63,9 @@ los tres puntos junto al interruptor "Análisis": apagá la barra de
 evaluación, las líneas del motor, las flechas de sugerencia y los comentarios
 de jugada (*move feedback*). Terminado el autoanálisis, se vuelven a prender
 en el mismo menú. Desde el Game Review, el botón "Ir al autoanálisis" (*Go to
-Self Analysis*) lleva a este tablero.
+Self Analysis*) lleva a este tablero. Confirmado (2026-10-16): en
+"Revisión de partida", la flecha **←** de arriba a la izquierda del panel
+(junto al corazón ♡) también lleva a este tablero.
 
 **D. Jugar** — en Jugar, el selector de tiempo → más controles (*More Time
 Controls*) → **10 | 5** (chess.com recuerda el último que elegiste). Diarias:

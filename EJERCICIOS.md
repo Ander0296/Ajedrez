@@ -34,8 +34,12 @@ Arranque: ejercicios/repasos/pNN-rX.md (desde cero, sin mirar el original)
 PRÁCTICA #01 — f7 bajo ataque: Ac4 + Cg5 — POSICIÓN ×3 + EXPLICAR — fuente: mis partidas (diagnóstico) — [ ] pendiente
 Arranque: ejercicios/p01-defensa-de-f7.md | Si te trabás: ToDo/apertura.md
 
-PRÁCTICA #03 — Usar el reloj y el chequeo — PROCESO (3 partidas) — fuente: diagnóstico — [ ] pendiente
+PRÁCTICA #03 — Usar el reloj y el chequeo — PROCESO (3 partidas) — fuente: diagnóstico — [~] en curso (1/3)
 Arranque: ejercicios/p03-usar-el-reloj.md | Si te trabás: ToDo/antes-de-mover.md
+- P1 2026-10-16 vs Momoney00 (10|5, P por tiempo J29, ya perdida): mediana 19,8 s ✅ · < 3 s: 4% · reloj sin usar 1% ✅ · sin rendición ✅ · chequeo "a veces": se lo salteó al inicio y en las jugadas largas ("leerlo me comía tiempo") → versión de bolsillo en ToDo/antes-de-mover.md.
+
+PRÁCTICA #04 — Dos momentos de mi partida vs Momoney00 (jugadas 18 y 24) — POSICIÓN ×2 — fuente: partida 2026-10-16 vs Momoney00 — [ ] pendiente (no antes del 2026-10-17)
+Arranque: ejercicios/p04-partida-momoney00.md | Si te trabás: ToDo/antes-de-mover.md (versión de bolsillo)
 
 # ============================================================
 # REPASOS PROGRAMADOS (r1 ~3 días, r2 ~2 semanas, r3 ~1 mes)

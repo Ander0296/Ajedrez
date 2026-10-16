@@ -18,3 +18,4 @@ pista automática):
 
 | Fecha | Yo | Rival | Res. | Control | Apertura | Error principal | Lección (una línea) | Práctica |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-16 | blancas 754 | Momoney00 (686) | P (tiempo, J29) | 10\|5 | peón de rey (2.c3, 3.d3, 4.h3) | AMENAZA ×2 (22.Ab4, 24.Txe5?? con +5,5) · NO COBRÉ (18.Aa4, alfil gratis en h4) · COLGADA (15.Ad1 dejó d3) · PLAN (19, 20) | Cada error grave fue una de las 4 preguntas del chequeo salteada; ganaba dos veces y no lo sabía (no conté el material) | #04 |

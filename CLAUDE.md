@@ -497,6 +497,22 @@ es trabajo FUERA de Claude (jugar, hacer problemas), el bloque lo dice igual
 de concreto: "▶ SIGUE: 1 partida 10|5 en chess.com aplicando
 ToDo/antes-de-mover.md; después, /partida".
 
+### Llevar de la mano: paso a paso — REGLA PERMANENTE
+
+Pedido del usuario (2026-10-15, ajedrez-s02): "de ahora en adelante me
+lleves de la mano". Cada vez que el usuario tiene que HACER algo (en
+chess.com, en un archivo, en Claude), Claude se lo da en PASOS NUMERADOS y
+concretos:
+- dónde entrar (URL exacta) y qué tocar, con el nombre tal como lo muestra
+  chess.com en español;
+- qué va a ver en pantalla y qué NO tiene que tocar;
+- qué hacer, cuándo está terminado (el criterio) y qué anotar;
+- con qué comando vuelve.
+
+Si una ruta o un menú no está verificado, se dice y se pide una captura;
+nunca se supone. Las rutas confirmadas se anotan en docs/CHESSCOM.md. Vale
+también para los arranques de `ejercicios/` y los bloques `▶ SIGUE`.
+
 ### Protocolo de ARRANQUE (lo dispara `/arranque`)
 
 1. `git pull`.

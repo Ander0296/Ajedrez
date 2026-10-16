@@ -157,6 +157,10 @@ ganar, hacer tablas). Es donde la técnica se vuelve automática: mates
 básicos (Práctica #02), rey y peón (F1), Lucena y Philidor (F2). Regla: un
 drill está dominado cuando sale **3 veces seguidas**.
 
+Ruta verificada (2026-10-15): chess.com/practice → **Drills** → 5 categorías:
+Ataque · Defensa · Fundamentos de finales de partida · Entrenamiento de
+finales · Desequilibrios. (Práctica NO aparece en la página de Lecciones.)
+
 ### Visión (*Vision*) — chess.com/vision
 
 Entrenador de coordenadas. 5 minutos, alguna vez por semana al principio:

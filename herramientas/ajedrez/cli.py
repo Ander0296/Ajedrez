@@ -230,6 +230,7 @@ def cmd_posicion(args):
     if not tablero.is_valid():
         print(f"⚠ Posición ilegal según las reglas: {tablero.status()!r}. Revisá el FEN.")
         return 1
+    print(f"Resolver: {T.enlace_resolver(tablero.fen())}")
     print(f"Ver: {T.enlace_chesscom(tablero.fen())}\n     {T.enlace_lichess(tablero.fen(), orientacion)}")
     propuesta = _parsear_linea(tablero, args.linea, args.en) if args.linea else []
     if args.sin_motor:

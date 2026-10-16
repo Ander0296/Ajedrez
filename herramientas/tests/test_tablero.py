@@ -23,3 +23,13 @@ def test_enlaces():
     assert T.enlace_chesscom(fen).startswith("https://www.chess.com/analysis?fen=rnbqkbnr/")
     assert " " not in T.enlace_chesscom(fen)
     assert T.enlace_lichess(fen, chess.BLACK).endswith("_w_KQkq_-_0_1?color=black")
+
+
+def test_enlace_resolver_juega_el_bando_que_mueve():
+    blancas = T.enlace_resolver(chess.Board().fen())
+    assert blancas.startswith("https://www.chess.com/practice/custom?color=white&fen=rnbqkbnr/")
+    assert blancas.endswith("&is960=false&moveList=")
+    assert " " not in blancas
+    negras = chess.Board()
+    negras.push_san("e4")
+    assert "?color=black&" in T.enlace_resolver(negras.fen())

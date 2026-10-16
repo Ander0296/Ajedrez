@@ -32,7 +32,8 @@ después el motor.**
 3. Clasificá cada error grave con la TAXONOMÍA (contrastando la pista de la
    herramienta con lo que escribí yo).
 4. Creá 1-2 prácticas POSICIÓN con las posiciones más instructivas (FEN y
-   diagrama de la herramienta, orientado desde mi lado) y registralas en
+   enlace Resolver de la herramienta, sin diagrama de texto: formato de
+   CLAUDE.md) y registralas en
    EJERCICIOS.md.
 5. Agregá la línea en PARTIDAS.md y actualizá "Última partida analizada"
    en el INICIO RÁPIDO de GUIA.md. Si la categoría ya apareció 3+ veces en

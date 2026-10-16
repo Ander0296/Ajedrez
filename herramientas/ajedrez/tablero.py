@@ -46,6 +46,18 @@ def enlace_chesscom(fen):
     return "https://www.chess.com/analysis?fen=" + urllib.parse.quote(fen)
 
 
+def enlace_resolver(fen):
+    """La posición contra la computadora en chess.com ("Posición personalizada").
+
+    Es el enlace de los ejercicios: el usuario juega con el bando al que le
+    toca mover (así lo ve desde su lado y la computadora no mueve primero) y
+    no hay barra de evaluación a la vista.
+    """
+    color = "white" if chess.Board(fen).turn == chess.WHITE else "black"
+    return (f"https://www.chess.com/practice/custom?color={color}"
+            f"&fen={urllib.parse.quote(fen)}&is960=false&moveList=")
+
+
 def enlace_lichess(fen, orientacion=chess.WHITE):
     url = "https://lichess.org/analysis/standard/" + fen.replace(" ", "_")
     return url + ("?color=black" if orientacion == chess.BLACK else "")

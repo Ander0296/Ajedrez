@@ -89,8 +89,8 @@ profe enseñado como verdad es peor que no enseñar. Por eso:
    la jugada del motor es incomprensible a este nivel, se dice y se busca
    la alternativa humana buena (la 2ª o 3ª de `--multipv` si está cerca).
 4. Toda posición que entra al repo (de una foto del libro o de una partida)
-   se guarda como FEN validado por la herramienta, con el diagrama GENERADO
-   por `ajedrez posicion` (nunca dibujado a mano).
+   se guarda como FEN validado por la herramienta, con el diagrama o el
+   enlace GENERADOS por `ajedrez posicion` (nunca a mano).
 5. Diagramas de fotos del libro: Claude los transcribe a FEN, los valida con
    la herramienta (`--orientacion blancas`, como el libro) y le pide al
    usuario que abra el enlace y confirme que coincide con la foto. Sin esa
@@ -112,8 +112,10 @@ que 4...Dxg5 simplemente gana un caballo.
   orientan desde el lado del USUARIO cuando la posición es de una partida
   suya (si jugó con negras, se ve desde negras, como en chess.com), y desde
   las blancas cuando viene del libro.
-- Todo ejercicio lleva el FEN y los dos enlaces (chess.com y lichess) que
-  imprime la herramienta.
+- Los ejercicios de `ejercicios/` NO llevan diagrama de texto (pedido del
+  usuario, 2026-10-16: lo confundía): llevan el enlace **Resolver** de
+  chess.com y el FEN, tal como los imprime la herramienta. Los diagramas de
+  texto quedan para el chat.
 
 ### Presupuesto de contexto — REGLA PERMANENTE
 
@@ -201,9 +203,11 @@ Todas se resuelven a mano. Todas tienen archivo de arranque `.md` en
 - **POSICIÓN** — "juegan X: ¿qué jugás y por qué?". Fuentes, en orden de
   valor: (1) posiciones críticas de SUS partidas (las saca `/partida`),
   (2) ejercicios del libro que falló, (3) posiciones del profe. Se resuelve
-  SIN motor y sin mover piezas en un tablero de análisis: mirando el
-  diagrama o armándola en un tablero físico. Se escribe la jugada, la
-  respuesta esperada del rival y el POR QUÉ.
+  EN CHESS.COM: el enlace Resolver abre la posición en "Posición
+  personalizada" contra la computadora, desde su lado y sin motor a la
+  vista. Piensa SIN mover piezas (como en partida), escribe en el `.md` la
+  jugada, la respuesta esperada del rival y el POR QUÉ, y RECIÉN DESPUÉS la
+  juega y anota qué respondió la computadora, sin tocar lo escrito.
 - **TÉCNICA** — un drill de chess.com (Práctica / *Practice*): mates
   básicos, rey y peón, Lucena/Philidor. Con criterio medible ("3 veces
   seguidas dentro del objetivo de jugadas").
@@ -224,13 +228,25 @@ Por qué: <el dato del usuario que la justifica, en 1-2 líneas>
 Cómo se resuelve: <sin motor / dónde / criterio>
 Si te trabás: <Sesión #Y de GUIA.md, o un checklist de ToDo/>
 
-## <Posición A — juegan X> (si es POSICIÓN)
-<línea que llevó a la posición>
-<diagrama de `ajedrez posicion`>
-FEN `...` · Ver: <chess.com> · <lichess>
+## Cómo se hace cada posición (siempre igual)   ← solo en POSICIÓN
+1. Abrí ▶ Resolver: chess.com "Posición personalizada", tus piezas ABAJO y
+   te toca mover (si no se ve así, captura).
+2. NO toques la bombilla (pista) ni "Análisis" (motor).
+3. Pensá SIN mover piezas, como en una partida.
+4. Escribí acá la jugada, la respuesta esperada del rival y POR QUÉ.
+5. Recién ahí jugala y anotá qué hizo la computadora (sin tocar el paso 4).
+6. Para volver al principio: botón verde Reiniciar.
+
+## <Posición A — juegan X (vos)>
+Cómo se llegó: <línea que llevó a la posición>
+▶ Resolver: <el enlace "Resolver:" que imprime `ajedrez posicion`>
+FEN (por si el enlace falla): `...`
 <preguntas>
 
 Tu respuesta:
+-
+
+Qué hizo la computadora (paso 5):
 -
 
 ---
@@ -243,7 +259,8 @@ Cuando termines, copiá y pegá:
 - POSICIÓN: el usuario escribe la(s) jugada(s) en notación española + el
   porqué. Claude corre `uv run ajedrez posicion "<FEN>" --linea "<lo que
   escribió>"` y corrige jugada Y razonamiento (una jugada correcta con un
-  porqué equivocado está a medias).
+  porqué equivocado está a medias). Lo que anotó que hizo la computadora
+  sirve para explicar; el veredicto sale de `--linea`.
 - TÉCNICA: números (intentos, logrados seguidos, jugadas usadas vs.
   objetivo). PROCESO: lo miden `ajedrez partidas` / `partida N`.
 - REPERTORIO: cada línea pasa por el motor; las ideas se discuten.
@@ -264,7 +281,7 @@ corrección es a ciegas.
   | --- | --- |
   | `uv run ajedrez partidas` | últimas 10 partidas (fecha, resultado, s/jugada, link) |
   | `uv run ajedrez partida N --motor` | una partida: reloj por jugada + momentos críticos con FEN |
-  | `uv run ajedrez posicion "<FEN>" --linea "..."` | diagrama, enlaces, top 3 del motor y veredicto de una línea |
+  | `uv run ajedrez posicion "<FEN>" --linea "..."` | diagrama, enlace Resolver (el de los ejercicios), enlaces de análisis, top 3 del motor y veredicto de una línea |
   | `uv run ajedrez resumen [--dias 7]` | proceso, resultados y aperturas del período, contra las metas |
   | `uv run ajedrez errores --ultimas 20` | Stockfish sobre N partidas: tipos de error + PGN en datos/ |
   | `uv run pytest` | los tests (corren con y sin Stockfish) |

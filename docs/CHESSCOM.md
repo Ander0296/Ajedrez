@@ -114,8 +114,9 @@ pestaña Diaria (*Daily*) → **3 días** por jugada → 1-2 partidas abiertas.
 
 ### Tablero de análisis, Explorador y Biblioteca
 
-- **Análisis**: cargar una partida o un FEN (los enlaces de los ejercicios
-  del repo abren directamente acá).
+- **Análisis**: cargar una partida o un FEN (los enlaces "Ver:" de la
+  herramienta abren acá). Los ejercicios del repo NO: su enlace "Resolver"
+  abre la Posición personalizada contra la computadora (sección 10).
 - **Explorador** (*Explorer*): después de cada partida, mirá en qué jugada
   saliste de la teoría y qué se juega ahí. Esa es TODA la teoría de
   aperturas que necesitás en la Fase 1.
@@ -221,3 +222,9 @@ que contradice el mapa, manda la captura y se corrige la línea.
 Enlaces directos a una posición contra la computadora (CONFIRMADO
 2026-10-15 con el mate de dama de la Práctica #02):
 `chess.com/practice/custom?color=white&fen=<FEN con espacios como %20>&is960=false&moveList=`
+
+Desde 2026-10-16 es el enlace **Resolver** de TODOS los ejercicios POSICIÓN:
+lo arma `ajedrez posicion` con `color` = el bando al que le toca mover (así
+el usuario lo ve desde su lado y la computadora no mueve primero). Con
+`color=black`: SIN CONFIRMAR todavía (que las negras queden abajo y le toque
+al usuario); se anota acá cuando lo confirme.

@@ -12,8 +12,9 @@ Si no te dije cuál, tomá el más antiguo de REPASOS PROGRAMADOS en
 cero: verla arruina la prueba.
 
 1. Creá el arranque del repaso en `ejercicios/repasos/` con el formato de
-   este tema: enunciado completo, la(s) posición(es) con diagrama
-   generado por la herramienta y FEN, el puntero "Si te trabás", el
+   este tema: enunciado completo, la(s) posición(es) con el enlace
+   Resolver de la herramienta y el FEN (sin diagrama de texto), los pasos
+   de chess.com del formato de CLAUDE.md, el puntero "Si te trabás", el
    checklist de `ToDo/` si aplica y al final el `/entrega` ya relleno.
    Nada de la solución. En POSICIÓN puede volver la misma posición: el
    método es reconocerla cada vez más rápido.

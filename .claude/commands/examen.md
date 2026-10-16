@@ -15,9 +15,10 @@ sesiones del INICIO RÁPIDO de `GUIA.md` y los patrones de `PARTIDAS.md`.
    tablero de análisis.
 2. **Una pregunta por vez, y esperás.**
 3. Mezclá tipos de pregunta:
-   - **posición**: un diagrama (generado con `uv run ajedrez posicion`,
-     verificado con el motor ANTES de mostrármelo) y "¿qué jugás y por
-     qué?"; mejor si es de una partida mía o del mismo patrón con otra
+   - **posición**: un diagrama y el enlace Resolver para verla en
+     chess.com (los dos de `uv run ajedrez posicion`, verificada con el
+     motor ANTES de mostrármela; no muevo piezas hasta responder) y "¿qué
+     jugás y por qué?"; mejor si es de una partida mía o del mismo patrón con otra
      posición;
    - **detectar el error**: una jugada mala de las que ya cometí, "¿qué
      tiene de malo?";

@@ -21,7 +21,7 @@ partidas. Objetivo: **1800+ y torneos con rating FIDE**, con ~30 min/día.
 3. **docs/CHESSCOM.md**, sección 3 (10 min): configurar chess.com.
 4. **INSTALACION.md**, parte 3: subir este repo a GitHub (privado o público,
    lo decido yo).
-5. **ejercicios/p01-defensa-de-f7.md**: resolverla sin motor.
+5. **ejercicios/p01-defensa-de-f7-chesscom.md**: resolverla en chess.com, sin motor.
 6. Primera partida 10|5 con el chequeo → `claude` → `/arranque` → `/partida`.
 7. El domingo: `/semana`.
 
@@ -196,8 +196,8 @@ sesión nueva.
 4. **El chequeo en cada jugada desde la 5ª** (`ToDo/antes-de-mover.md`).
 5. **No me rindo antes de la jugada 30** (salvo dama de menos sin
    compensación o mate inevitable). Nunca abandono una partida.
-6. Las prácticas se resuelven sin motor y sin mover piezas en el tablero de
-   análisis; los repasos, desde cero.
+6. Las prácticas se resuelven en chess.com (enlace Resolver), sin motor y
+   sin mover piezas hasta escribir la respuesta; los repasos, desde cero.
 7. Problemas: precisión antes que velocidad. Puzzle Rush es un juego.
 8. `material/` nunca va a git (copyright).
 9. Fair play: en las Diarias, Explorador sí; motor y ayuda de otros, NUNCA.

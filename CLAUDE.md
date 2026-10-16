@@ -35,7 +35,7 @@ quiere cambiar alguna, se cambia a pedido:
 - Herramientas: paquete Python propio (`uv run ajedrez ...`) + Stockfish 19.
 - Comandos: los de la plantilla adaptados + dos propios del ajedrez:
   `/partida` (analizar una partida) y `/semana` (revisión con datos).
-- Prefijo de sesiones: `ajedrez` · Engram project: `Ajedrez`.
+- Prefijo de sesiones: `ajedrez` · Engram project: `ajedrez` (así lo detecta Engram desde la raíz de git).
 
 ### Nivel del usuario (IMPORTANTE)
 
@@ -500,7 +500,7 @@ ToDo/antes-de-mover.md; después, /partida".
 ### Protocolo de ARRANQUE (lo dispara `/arranque`)
 
 1. `git pull`.
-2. Leer, en este orden y NADA MÁS: Engram (project = Ajedrez), el INICIO
+2. Leer, en este orden y NADA MÁS: Engram (project = ajedrez), el INICIO
    RÁPIDO de GUIA.md (hasta `## VOCABULARIO`, sin incluirlo) y EJERCICIOS.md
    entero.
 3. `uv run ajedrez partidas --ultimas 5` y cruzar con la línea "Última
@@ -702,7 +702,7 @@ del repo, crear repos o agregar colaboradores.
 
 ### Memoria y contexto
 
-- Engram: project = "Ajedrez" (basename de esta carpeta; NO inventar otro).
+- Engram: project = "ajedrez" (lo detecta Engram desde la raíz de git; NO inventar otro).
 - Inicio de sesión — leer SOLO esto, en este orden:
   1. Engram (dónde quedamos).
   2. El INICIO RÁPIDO de GUIA.md: desde el principio hasta el encabezado

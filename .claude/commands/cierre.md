@@ -15,7 +15,7 @@ Cerramos el día:
    `EJERCICIOS-ARCHIVO.md` (sin falta si `EJERCICIOS.md` pasa de ~150
    líneas). Si `GUIA.md` pasa de ~500 líneas, las sesiones viejas van a
    `GUIA-ARCHIVO.md`. Si el INICIO RÁPIDO pasó de ~14 líneas, comprimí.
-4. Guardá en Engram (project = Ajedrez) el resumen del día y dónde
+4. Guardá en Engram (project = ajedrez) el resumen del día y dónde
    quedamos (capítulo del libro, última partida, prácticas).
 5. Git según la REGLA DE GIT de CLAUDE.md: chequeo de seguridad, mostrame
    qué cambió y con qué mensaje, y commit + push directo (invocar

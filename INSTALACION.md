@@ -10,7 +10,7 @@ diario está en README.md.
 - GIT / GITHUB / PUSH / PULL / LLAVE SSH: igual que en mis otros proyectos
   (si hace falta repasarlo, está en `plantilla-profesor/INSTALACION.md`).
 - CLAUDE CODE: el programa `claude`; acá hace de entrenador.
-- ENGRAM: la memoria del profe entre sesiones (MCP). Project = `Ajedrez`.
+- ENGRAM: la memoria del profe entre sesiones (MCP). Project = `ajedrez`.
 - UV: el gestor de Python que ya uso. Crea el entorno `.venv/` y corre el
   programa del repo con `uv run ajedrez ...`.
 - STOCKFISH: el motor de ajedrez (el mismo que usan chess.com y lichess).

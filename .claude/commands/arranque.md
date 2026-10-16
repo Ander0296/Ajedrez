@@ -10,7 +10,7 @@ Contexto que te doy hoy: $ARGUMENTS
 
 Recordá:
 1. `git pull` antes de leer nada.
-2. Leé SOLO: Engram (project = Ajedrez), el INICIO RÁPIDO de GUIA.md
+2. Leé SOLO: Engram (project = ajedrez), el INICIO RÁPIDO de GUIA.md
    (hasta `## VOCABULARIO`, sin incluirlo) y EJERCICIOS.md entero.
 3. Corré `uv run ajedrez partidas --ultimas 5` y fijate si hay partidas
    valoradas que jugué y todavía no analizamos (cruzalo con "Última

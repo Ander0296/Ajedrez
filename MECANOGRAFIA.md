@@ -8,3 +8,7 @@ una palabra por línea. Las frases no se editan: si algo cambió, frase nueva.
 s01 — el diagnóstico:
 Antes de mover: ¿qué amenaza el rival?, ¿qué dejo colgado?, ¿tengo algo mejor?
 Si el rival deja una pieza suelta, compruebo que sea gratis y la cobro.
+
+s02 — mates básicos (sin ahogar):
+Ahogado es tablas: el rey rival no tiene jugadas legales y no está en jaque.
+Con dama contra rey, antes de cada jugada miro si el rey rival todavía puede moverse.

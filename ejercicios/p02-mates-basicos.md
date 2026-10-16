@@ -21,7 +21,7 @@ cuando el rey rival queda sin casillas pero NO en jaque.
 
 | Drill | Intentos | Logrados seguidos | Jugadas que usaste / objetivo | ¿Ahogaste alguna vez? |
 | --- | --- | --- | --- | --- |
-| Mate con dama | | | | |
+| Mate con dama | 3| 3 | |no |
 | Mate con torre | | | | |
 | Dos torres (si estaba) | | | | |
 

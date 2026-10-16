@@ -13,8 +13,8 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 - Última tanda: ninguna todavía (las tandas se numeran "Sesión #NN")
 - Última partida analizada: ninguna; las partidas hasta el 2026-10-15 20:12
   (vs Mandauw) las cubre el diagnóstico
-- PRÓXIMA SESIÓN: `/rename ajedrez-s02`   ← sale SIEMPRE de acá, no se calcula
-- Prácticas pendientes: #01 f7, #02 mates básicos, #03 reloj (EJERCICIOS.md)
+- PRÓXIMA SESIÓN: `/rename ajedrez-s03`   ← sale SIEMPRE de acá, no se calcula
+- Prácticas pendientes: #01 f7, #03 reloj · #02 mates ✅ (r1: 2026-10-19)
 - Última /semana: nunca (la primera: domingo 2026-10-18)
 - Último triage (`/pendientes`): nunca
 - Último examen (`/examen`): nunca
@@ -37,6 +37,7 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 | Game Review / Key moments / Retry | revisión de partida / momentos clave / reintentar | El análisis del coach de chess.com y su modo de volver a intentar. |
 | Custom Puzzles | problemas personalizados | Problemas elegidos por tema (sin rating). |
 | stalemate | ahogado | Sin jugadas legales y SIN jaque: son tablas. |
+| opposition | oposición | Reyes frente a frente con una sola casilla entre ellos: el que mueve cede terreno. |
 
 ============================================================
 (ACÁ VAN LAS SESIONES — Claude agrega la SESIÓN #01 con la primera tanda del

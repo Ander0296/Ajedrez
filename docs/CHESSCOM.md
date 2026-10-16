@@ -157,9 +157,8 @@ ganar, hacer tablas). Es donde la técnica se vuelve automática: mates
 básicos (Práctica #02), rey y peón (F1), Lucena y Philidor (F2). Regla: un
 drill está dominado cuando sale **3 veces seguidas**.
 
-Ruta verificada (2026-10-15): chess.com/practice → **Drills** → 5 categorías:
-Ataque · Defensa · Fundamentos de finales de partida · Entrenamiento de
-finales · Desequilibrios. (Práctica NO aparece en la página de Lecciones.)
+Qué hay adentro de cada pantalla: sección 10 (MAPA VERIFICADO). Los mates
+básicos NO están en Drills: se practican con una posición personalizada.
 
 ### Visión (*Vision*) — chess.com/vision
 
@@ -197,3 +196,26 @@ ayuda a leer el libro y a ver las casillas sin pensar.
 | Colecciones | chess.com/analysis/collections |
 | Tus Insights | chess.com/insights/buti-g |
 | Visión | chess.com/vision |
+
+## 10. MAPA VERIFICADO — lo que hay en cada pantalla
+
+Regla (CLAUDE.md, "Llevar de la mano"): Claude da una ruta de chess.com
+SOLO si está acá. Si no está, lo dice, pide una captura y, cuando el
+usuario la manda, la anota acá en el mismo momento. Una línea por pantalla,
+con la fecha en que se vio. chess.com cambia los menús: ante una captura
+que contradice el mapa, manda la captura y se corrige la línea.
+
+| Pantalla (URL) | Qué hay | Visto |
+| --- | --- | --- |
+| Barra izquierda | Jugar · Problemas · Aprender · "Más" (despliega Entrenar · Ver · Comunidad · Otros) | 2026-10-15 |
+| chess.com/lessons/all-lessons | Lecciones (cursos con video): Aperturas · Estrategia · Tácticas · Finales · Partidas magistrales + buscador con filtros. NO tiene Práctica | 2026-10-15 |
+| chess.com/practice | Práctica: Partidas magistrales · Aperturas · Drills · Posición personalizada. El tablero de la izquierda es una partida contra "Máximo (3200)": no se usa | 2026-10-15 |
+| chess.com/practice/drills | Drills: Ataque · Defensa · Fundamentos de finales de partida · Entrenamiento de finales · Desequilibrios | 2026-10-15 |
+| …/drills/endgame-fundamentals | ~25 drills de REY Y PEÓN, títulos en inglés (rey y peón contra rey, oposición, triangulación, regla de Bahr, zugzwang...). NO hay mates básicos. Es el material de F1 | 2026-10-15 |
+| …/drills/endgame-training | sin ver todavía | — |
+| …/drills (Ataque, Defensa, Desequilibrios) | sin ver todavía | — |
+| chess.com/practice/custom | Posición personalizada contra la computadora. Derecha: lista de jugadas numerada · botón verde **Reiniciar** (vuelve al inicio) · Análisis · bombilla = pista (NO se usa al practicar) · flechas | 2026-10-15 |
+
+Enlaces directos a una posición contra la computadora (CONFIRMADO
+2026-10-15 con el mate de dama de la Práctica #02):
+`chess.com/practice/custom?color=white&fen=<FEN con espacios como %20>&is960=false&moveList=`

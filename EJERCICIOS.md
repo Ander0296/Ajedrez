@@ -34,9 +34,6 @@ Arranque: ejercicios/repasos/pNN-rX.md (desde cero, sin mirar el original)
 PRÁCTICA #01 — f7 bajo ataque: Ac4 + Cg5 — POSICIÓN ×3 + EXPLICAR — fuente: mis partidas (diagnóstico) — [ ] pendiente
 Arranque: ejercicios/p01-defensa-de-f7.md | Si te trabás: ToDo/apertura.md
 
-PRÁCTICA #02 — Mates básicos: dama y torre — TÉCNICA — fuente: libro caps. 11 y 28 — [ ] pendiente
-Arranque: ejercicios/p02-mates-basicos.md | Si te trabás: libro cap. 11
-
 PRÁCTICA #03 — Usar el reloj y el chequeo — PROCESO (3 partidas) — fuente: diagnóstico — [ ] pendiente
 Arranque: ejercicios/p03-usar-el-reloj.md | Si te trabás: ToDo/antes-de-mover.md
 
@@ -44,7 +41,8 @@ Arranque: ejercicios/p03-usar-el-reloj.md | Si te trabás: ToDo/antes-de-mover.m
 # REPASOS PROGRAMADOS (r1 ~3 días, r2 ~2 semanas, r3 ~1 mes)
 # ============================================================
 
-(vacío por ahora)
+REPASO — PRÁCTICA #02 (r1) — programado: 2026-10-19 — [ ] pendiente
+Arranque: ejercicios/repasos/p02-r1.md (desde cero, sin mirar el original). Mismos drills (FEN en EJERCICIOS-ARCHIVO.md) + explicar de nuevo el mate con torre. Criterio: 3 seguidos, dama ≤ 12 y torre ≤ 25; aspiración torre ≤ 20.
 
 # ============================================================
 # CONCEPTOS DOMINADOS (entran al graduarse una práctica con r3 bien)

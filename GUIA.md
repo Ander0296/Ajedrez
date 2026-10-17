@@ -13,7 +13,8 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 - Última tanda: ninguna todavía (las tandas se numeran "Sesión #NN")
 - Última partida analizada: 2026-10-16 00:46 vs Momoney00 (10|5, P por tiempo)
 - PRÓXIMA SESIÓN: `/rename ajedrez-s04`   ← sale SIEMPRE de acá, no se calcula
-- Prácticas pendientes: #01 f7, #04 Momoney (desde 17-oct) · #03 reloj [~] 1/3 · #02 ✅ (r1: 2026-10-19)
+- Prácticas pendientes: #04 Momoney (desde 17-oct) · #03 reloj [~] 1/3 · #01 ✅ (r1: 2026-10-20) · #02 ✅ (r1: 2026-10-19)
+- Regla fija (2026-10-16): prácticas CORTAS, corrección de 1 línea por posición, 1 solo reintento
 - Última /semana: nunca (la primera: domingo 2026-10-18)
 - Último triage (`/pendientes`): nunca
 - Último examen (`/examen`): nunca
@@ -38,6 +39,8 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 | stalemate | ahogado | Sin jugadas legales y SIN jaque: son tablas. |
 | opposition | oposición | Reyes frente a frente con una sola casilla entre ellos: el que mueve cede terreno. |
 | increment (10 \| 5) | incremento | Segundos que el reloj te SUMA cada vez que movés: 10\|5 = 10 minutos + 5 s por jugada. |
+| Two Knights Defense | Defensa de los dos caballos | 1.e4 e5 2.Cf3 Cc6 3.Ac4 Cf6: la que jugás con negras contra la Italiana. |
+| Fried Liver Attack | ataque «hígado frito» | 4.Cg5 d5 5.exd5 Cxd5? 6.Cxf7!: sacrifican el caballo para sacar tu rey al centro. |
 
 ============================================================
 (ACÁ VAN LAS SESIONES — Claude agrega la SESIÓN #01 con la primera tanda del

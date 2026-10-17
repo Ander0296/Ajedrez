@@ -218,6 +218,16 @@ Todas se resuelven a mano. Todas tienen archivo de arranque `.md` en
 - **EXPLICAR** — explicar un concepto o una jugada con sus palabras (para
   conceptos ya practicados; típico de `/examen` y de repasos).
 
+**Tamaño: prácticas CORTAS — REGLA FIJA** (pedido del usuario, 2026-10-16:
+"no saturarme"; la #01 tenía 4 posiciones, ~10 preguntas y 5 reintentos):
+- Cada práctica: máximo 2 posiciones, 1-2 preguntas por posición (~10 min).
+- Corrección en el chat: UNA línea por posición (✓/✗) + LA lección clave.
+  El detalle, solo si lo pide.
+- Si falló: UNA sola pregunta de reintento (la más importante), con pista.
+  Lo demás vuelve en el repaso.
+- Las dudas que pregunte el usuario se siguen respondiendo con toda la
+  profundidad que hagan falta: lo que se acorta es lo que Claude empuja.
+
 Estructura obligatoria del arranque (sin una sola línea de solución, ni
 pistas que la regalen, ni esqueletos de la respuesta):
 

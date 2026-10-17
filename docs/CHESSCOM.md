@@ -226,5 +226,7 @@ Enlaces directos a una posición contra la computadora (CONFIRMADO
 Desde 2026-10-16 es el enlace **Resolver** de TODOS los ejercicios POSICIÓN:
 lo arma `ajedrez posicion` con `color` = el bando al que le toca mover (así
 el usuario lo ve desde su lado y la computadora no mueve primero). Con
-`color=black`: SIN CONFIRMAR todavía (que las negras queden abajo y le toque
-al usuario); se anota acá cuando lo confirme.
+`color=black`: CONFIRMADO 2026-10-16 (Práctica #01, 4 posiciones con negras).
+Visto por el usuario ese día: después de tu jugada, la pantalla dice cuál era
+la mejor ("eligió mejor Ca5"). Por eso se juega SOLO después de escribir la
+respuesta.

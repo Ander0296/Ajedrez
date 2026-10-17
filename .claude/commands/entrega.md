@@ -12,10 +12,12 @@ pedímelos antes de corregir: sin eso la corrección es a ciegas.
    `uv run ajedrez posicion "<FEN>" --linea "<lo que escribí>"` antes de
    opinar. Si es PROCESO, medilo con `uv run ajedrez partidas` /
    `partida N`.
-2. Corregí EN DETALLE **en el chat**: qué está bien, qué está mal y POR
-   QUÉ — la jugada y también el razonamiento (una jugada correcta con un
-   porqué equivocado está a medias). Si fallé, dame primero una pista y
-   dejame intentar de nuevo antes de mostrarme la solución.
+2. Corregí **en el chat**, CORTO (regla de prácticas cortas de CLAUDE.md):
+   UNA línea por posición (✓/✗, la jugada y el razonamiento: una jugada
+   correcta con un porqué equivocado está a medias) + LA lección clave. El
+   detalle, solo si te lo pido. Si fallé: UNA sola pregunta de reintento,
+   la más importante, con pista, antes de mostrarme la solución; lo demás
+   vuelve en el repaso.
 3. En `EJERCICIOS.md`, corrección de **3 líneas como máximo**.
 4. Si quedó completada: movela con su corrección a
    `EJERCICIOS-ARCHIVO.md` y agendá sus repasos (r1 ~3-4 días).

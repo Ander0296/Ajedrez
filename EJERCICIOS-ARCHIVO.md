@@ -15,6 +15,11 @@ Corrección: bien la explicación en lo esencial (encerrar con la torre, reyes e
 Faltó el papel del rey ANTES del final (acompaña, protege a la torre y achica el cajón) y la jugada de espera de la torre:
 ahí se van las jugadas de más (el 24). Repasos: r1 2026-10-19.
 
+PRÁCTICA #01 — f7 bajo ataque: Ac4 + Cg5 — POSICIÓN ×3 + EXPLICAR — fuente: mis partidas (diagnóstico) — [x] completada (2026-10-16)
+Arranque: ejercicios/p01-defensa-de-f7-chesscom.md · B `r1bqkb1r/ppp2ppp/2n2n2/3Pp1N1/2B5/8/PPPP1PPP/RNBQK2R b KQkq - 0 5` · D `r1bqk1nr/pppp1ppp/2n5/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R b KQkq - 5 4`
+Bien: 4...d5 (tapa la diagonal a f7) · 7...Re6 y por qué falla 7...Df6 (8.Axd5+) · sin ...Dxg5 en A porque el Cf6 tapa la diagonal · reintento: 5...Ca5 ataca al Ac4, socio del Cg5 contra f7.
+Mal: la amenaza principal es 5.Cxf7 (no Axf7+) · 5...Cxd5 otra vez · "4...Ch5 = lo mismo" (5.Axf7+ y 6.Dxh5) · faltó 7...Rg8 (mate en 3) · por qué el Cg5 está suelto (Ac1 tapado por d2) · regla genérica. Repasos: r1 2026-10-20.
+
 # ============================================================
 # REPASOS CUMPLIDOS
 # ============================================================

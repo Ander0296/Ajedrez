@@ -18,7 +18,8 @@ negras perdí 22 de 29 partidas contra 3.Ac4.
 
 ## Mis trampas conocidas
 
-- 1.e4 e5 2.Cf3 Cc6 3.Ac4 + Cg5: mis respuestas en la Práctica #01 (cuando la
-  corrija el profe, las jugadas correctas se suman acá).
+- 1.e4 e5 2.Cf3 Cc6 3.Ac4 Cf6 4.Cg5 → **4...d5 5.exd5 Ca5** (echa al alfil,
+  el socio del Cg5 contra f7). NUNCA 5...Cxd5: 6.Cxf7! Rxf7 7.Df3+ y mi rey
+  al centro (perdí 12 de 13 así). Si ya pasó: 7...Re6 es la única.
 - 1.e4 e5 2.Cf3 Cc6 3.Ac4 Ac5 4.Cg5?! → 4...Dxg5 gana un caballo: antes de
   defender f7, mirar si el atacante está suelto.

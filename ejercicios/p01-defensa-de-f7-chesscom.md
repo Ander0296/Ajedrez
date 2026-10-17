@@ -41,10 +41,19 @@ FEN (por si el enlace falla): `r1bqkb1r/pppp1ppp/2n2n2/4p1N1/2B1P3/8/PPPP1PPP/RN
    cada una y qué ganan?
 
 Tu respuesta:
+1. Los blancas amenazan capturar el peon ya que solo lo defiende el rey, si comen con alfil dan jaque y dañan el enroque
+2. jugaría d5 para tapar el ataque
+3. para d6 las blancas castigan comer igualmente el peon, si comen con el caballo, dan doble ataque a dama y torre
+- para caballo h5 lo mismo, no cambia la posición, también dan el mismo ataque
 -
 
 Qué hizo la computadora (paso 5):
+4: d5
+5: exd5  5: Cxd5
+6: d4  6: exd4
+
 -
+
 
 ## Posición B — juegan negras (vos)
 
@@ -60,9 +69,12 @@ FEN (por si el enlace falla): `r1bqkb1r/ppp2ppp/2n2n2/3Pp1N1/2B5/8/PPPP1PPP/RNBQ
 
 Tu respuesta:
 -
+1. comerme el caballo, o hacer la misma jugada de doble ataque con el caballo si descubren el peon,
+2 en ese lugar comería el peon ya que tengo doble ataque a ese peon
 
 Qué hizo la computadora (paso 5):
--
+
+- la computadora elijió mejor Ca5
 
 ## Posición C — juegan negras (vos) · jugada única
 
@@ -79,10 +91,13 @@ FEN (por si el enlace falla): `r1bq1b1r/ppp2kpp/2n5/3np3/2B5/5Q2/PPPP1PPP/RNB1K2
    que parece natural?
 
 Tu respuesta:
--
+
+- Df6 falla porque al dejo el caballo sin protección y se lo pueden comer dando jaque
+Yo jugaría Re6 en este caso para defender el caballo
 
 Qué hizo la computadora (paso 5):
--
+
+- la computadora recomendó lo mismo, Re6
 
 ## Posición D — EXPLICAR (esta ya la conocés)
 
@@ -102,7 +117,9 @@ FEN (por si el enlace falla): `r1bqk1nr/pppp1ppp/2n5/2b1p1N1/2B1P3/8/PPPP1PPP/RN
 
 Tu respuesta:
 -
-
+1. el caballo de g5 está indefenso, no hay piezas que lo defienden, no lo hacer por error.
+2. porque el caballo está atravesado, por eso no se puede comer el caballo de g5
+3. Revisar bien el tablero, llevar bien el ToDo, ver que piezas están regaladas, y qué ataques me pueden hacer.
 ---
 Cuando termines, copiá y pegá:
 /entrega la práctica 01 está en ejercicios/p01-defensa-de-f7-chesscom.md, resolví las 4 posiciones en chess.com sin motor

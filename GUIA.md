@@ -11,9 +11,9 @@ partidas vive en PARTIDAS.md; las prácticas, en EJERCICIOS.md.
 - Tema de la semana: el chequeo antes de mover + f7 (hasta la 1ª /semana)
 - Libro: sin empezar. Caps. 1-11 LECTURA; 1ª TANDA = caps. 12-15 (docs/ILLESCAS.md)
 - Última tanda: ninguna todavía (las tandas se numeran "Sesión #NN")
-- Última partida analizada: 2026-10-16 00:46 vs Momoney00 (10|5, P por tiempo)
-- PRÓXIMA SESIÓN: `/rename ajedrez-s04`   ← sale SIEMPRE de acá, no se calcula
-- Prácticas pendientes: #04 Momoney (desde 17-oct) · #03 reloj [~] 1/3 · #01 ✅ (r1: 2026-10-20) · #02 ✅ (r1: 2026-10-19)
+- Última partida analizada: 2026-10-16 00:46 vs Momoney00 (10|5, P por tiempo) · SIN analizar: 2026-10-16 19:42 vs 2Emmaus (arranque en analisis/)
+- PRÓXIMA SESIÓN: `/rename ajedrez-s05`   ← sale SIEMPRE de acá, no se calcula
+- Prácticas pendientes: #04 Momoney (desde 17-oct) · #03 reloj [~] 2/3 · #01 ✅ (r1: 2026-10-20) · #02 ✅ (r1: 2026-10-19)
 - Regla fija (2026-10-16): prácticas CORTAS, corrección de 1 línea por posición, 1 solo reintento
 - Última /semana: nunca (la primera: domingo 2026-10-18)
 - Último triage (`/pendientes`): nunca

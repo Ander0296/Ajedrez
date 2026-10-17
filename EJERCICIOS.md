@@ -31,9 +31,10 @@ Arranque: ejercicios/repasos/pNN-rX.md (desde cero, sin mirar el original)
 # PRÁCTICAS ABIERTAS
 # ============================================================
 
-PRÁCTICA #03 — Usar el reloj y el chequeo — PROCESO (3 partidas) — fuente: diagnóstico — [~] en curso (1/3)
+PRÁCTICA #03 — Usar el reloj y el chequeo — PROCESO (3 partidas) — fuente: diagnóstico — [~] en curso (2/3)
 Arranque: ejercicios/p03-usar-el-reloj.md | Si te trabás: ToDo/antes-de-mover.md
 - P1 2026-10-16 vs Momoney00 (10|5, P por tiempo J29, ya perdida): mediana 19,8 s ✅ · < 3 s: 4% · reloj sin usar 1% ✅ · sin rendición ✅ · chequeo "a veces": se lo salteó al inicio y en las jugadas largas ("leerlo me comía tiempo") → versión de bolsillo en ToDo/antes-de-mover.md.
+- P2 2026-10-16 vs 2Emmaus (10|5, negras, P por rendición J21): mediana 15,8 s ✅ · < 3 s: 0% ✅ · reloj sin usar 57% (por la rendición) · rendición en J21 (regla: no antes de la 30; se revisa en /partida) · chequeo: lo dice el autoanálisis (analisis/2026-10-16-2emmaus.md).
 
 PRÁCTICA #04 — Dos momentos de mi partida vs Momoney00 (jugadas 18 y 24) — POSICIÓN ×2 — fuente: partida 2026-10-16 vs Momoney00 — [ ] pendiente (no antes del 2026-10-17)
 Con la regla de prácticas cortas (2026-10-16): en cada posición alcanza con la ÚLTIMA pregunta (jugada + por qué); las otras son opcionales.
@@ -47,7 +48,7 @@ REPASO — PRÁCTICA #02 (r1) — programado: 2026-10-19 — [ ] pendiente
 Arranque: ejercicios/repasos/p02-r1.md (desde cero, sin mirar el original). Mismos drills (FEN en EJERCICIOS-ARCHIVO.md) + explicar de nuevo el mate con torre. Criterio: 3 seguidos, dama ≤ 12 y torre ≤ 25; aspiración torre ≤ 20.
 
 REPASO — PRÁCTICA #01 (r1) — programado: 2026-10-20 — [ ] pendiente
-Arranque: ejercicios/repasos/p01-r1.md (desde cero). CORTO: solo 2 posiciones, la B (qué jugás tras 5.exd5 y por qué) y la D (por qué el Cg5 está suelto + la regla en una frase). FEN en EJERCICIOS-ARCHIVO.md.
+Arranque: ejercicios/repasos/p01-r1.md (creado; desde cero). CORTO: 2 posiciones, la B original (tras 5.exd5) y la D (4...Dxg5 + la regla). FEN en EJERCICIOS-ARCHIVO.md. Para el r2: 4...Ch5 (A) y 7...Rg8 (C), que fallaron en la entrega.
 
 # ============================================================
 # CONCEPTOS DOMINADOS (entran al graduarse una práctica con r3 bien)
